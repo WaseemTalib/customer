@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Add User</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Add New Customer</h1>
+      <form autocomplete="off">
+        <div class="form-control">
+          <p>Customer Name:</p>
+          <div class="input app-input">
+            <input type="text" name="name" id="name" />
+            <label for="email">Customer Name</label>
+          </div>
+        </div>
+        <div class="form-control">
+          <p>Mobile Number:</p>
+          <div class="input app-input">
+            <input type="number" name="mobile" id="mobile" />
+            <label for="email">Mobile Number</label>
+          </div>
+        </div>
+        <div class="form-control">
+          <p>Email Address:</p>
+          <div class="input app-input">
+            <input type="text" name="address" id="address" />
+            <label for="email">Address</label>
+          </div>
+        </div>
+        <div class="form-control">
+          <p>Company:</p>
+
+          <div class="input app-input">
+            <select name="company" id="company">
+              <option value="volvo">Volvo</option>
+              <option value="saab">Saab</option>
+              <option value="mercedes">Mercedes</option>
+              <option value="audi">Audi</option>
+            </select>
+          </div>
+        </div>
+        <div class="buttonGroup">
+          <button type="button" onclick="customerPage('/customerList')" class="button app-login-button">Cancel</button>
+          <button type="button" onclick="customerPage('/customerList')" class="button app-login-button">Save</button>
+        </div>
+      </form>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
