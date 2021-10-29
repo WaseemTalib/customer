@@ -8,41 +8,48 @@
     <title>Cutomer List</title>
   </head>
   <body>
-    <span class="customerHeader">
-      <h1>Customer List</h1>
-      <button class="button" onclick="addUser()">+Add</button>
-    </span>
-    <table>
-      <thead>
-        <tr>
-          <th>Name</th>
-          <th>Mobile Number</th>
-          <th>Email Address</th>
-        </tr>
-      </thead>
-      <tbody id="tbody">
-        <tr onclick="">
-          <td>James</td>
-          <td>(713) 123-8965</td>
-          <td><a href="mailto:jmatman@stewart.com">jmatman@stewart.com</a></td>
-        </tr>
-        <tr>
-          <td>Johnny</td>
-          <td>(713) 584-9614</td>
-          <td><a href="mailto:jsmith@stewart.com">jsmith@stewart.com</a></td>
-        </tr>
-        <tr>
-          <td>Susan</td>
-          <td>(713) 847-1124</td>
-          <td><a href="mailto:sjohnson@stewart.com">sjohnson@stewart.com</a></td>
-        </tr>
-        <tr>
-          <td>Tracy</td>
-          <td>(713) 245-4821</td>
-          <td><a href="mailto:trichard@stewart.com">trichard@stewart.com</a></td>
-        </tr>
-      </tbody>
-    </table>
+    <div class="navBar">
+      <p class="logo">my logo</p>
+    </div>
+
+    <div class="outer">
+      <span class="customerHeader">
+        <h1>Customer List</h1>
+        <a type="button" href="../addUser/index.html" class="button app-login-button">+Add</a>
+      </span>
+    
+      <table>
+        <thead>
+          <tr>
+            <th>Customer Name</th>
+            <th>Mobile Number</th>
+            <th>Email Address</th>
+          </tr>
+        </thead>
+        <tbody id="tbody">
+          <tr onclick="">
+            <td>James</td>
+            <td>(713) 123-8965</td>
+            <td><a href="mailto:jmatman@stewart.com">jmatman@stewart.com</a></td>
+          </tr>
+          <tr>
+            <td>Johnny</td>
+            <td>(713) 584-9614</td>
+            <td><a href="mailto:jsmith@stewart.com">jsmith@stewart.com</a></td>
+          </tr>
+          <tr>
+            <td>Susan</td>
+            <td>(713) 847-1124</td>
+            <td><a href="mailto:sjohnson@stewart.com">sjohnson@stewart.com</a></td>
+          </tr>
+          <tr>
+            <td>Tracy</td>
+            <td>(713) 245-4821</td>
+            <td><a href="mailto:trichard@stewart.com">trichard@stewart.com</a></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
     <script src="script.js"></script>
   </body>
 </html>
